@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-// 모듈
+// 모듈 생성
 module.exports = (sequelize) => {
     return sequelize.define('User', {
         id: {
